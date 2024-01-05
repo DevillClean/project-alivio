@@ -1,0 +1,45 @@
+.story {
+    background-color: #245852;
+    padding: 229px 0 176px;
+    color: #fff;
+}
+
+.story-row {
+    display: flex;
+    justify-content: space-between;
+}
+.story-content {
+    margin-right: 30px;
+}
+.story-heading {
+    font-family: 'Georgia', serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 157%;
+    max-width: 620px;
+    padding-top: 60px;
+}
+.story-heading + * {
+    margin-top: 33px;
+}
+
+.story-text {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 157%;
+}
+.story-text + *{
+    margin-top: 57px;
+}
+
+.story-btn {
+    display: flex;
+}
+
+.story-wideo {
+    max-width: 895px;
+}
+
+.story-wideo-wrapper {
+   position: relative;
+}

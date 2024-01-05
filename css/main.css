@@ -1,0 +1,37 @@
+@import url(./reset.css);
+
+body{
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #292929;
+    line-height: 1.5;
+}
+
+.none{
+    display: none !important;
+}
+
+.visually-hidden {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+    display: block;
+    margin-left: -10000px;
+    background: transparent;
+    font-size: 0;
+}
+
+.conteiner{
+    width: 1400px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.conteiner-wide{
+    width: 1546px;
+}

@@ -1,0 +1,74 @@
+.card {
+    border-radius: 3.73px;
+    background: #FFF;
+    width: 296px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 28px 20px 30px;
+}
+.card-title {
+    position: relative;
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+    padding-bottom: 12px;
+    margin-bottom: 13px
+}
+
+.card-title::after{
+    content: '';
+    position: absolute;
+    background-color: #000;
+    height: 0.75px;
+    left: 75px;
+    right: 77px;
+    bottom: 0;
+}
+.card-avatar {
+    text-align: center;
+}
+.img-avatars{
+   margin-bottom: 13px;
+   border-radius: 50%;
+   object-fit: cover;
+}
+
+.avatar-name {
+    color: #000;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 157%;
+    padding-top: 8px;
+}
+.cart-contents {
+    color: #000;
+    font-family: 'Georgia', serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 157%;
+    
+}
+.cart-contents-title {
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.card ul {
+    padding-top: 16px;
+    text-align: left;
+    padding-left: 39px;
+    font-family: 'Lato',serif;
+    font-size: 10.62px;
+    list-style-type: disc;
+    list-style-position: inside;
+    
+}
+.card ul li + li{
+   margin-top: 10px;
+}
